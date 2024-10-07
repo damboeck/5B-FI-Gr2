@@ -1,0 +1,10 @@
+
+services:
+  maxi:
+    image: ubuntu:22.04
+    container_name: maxi
+    environment:
+      - MY_ENV_VAR=example_value   # Setze hier die gewünschte Umgebungsvariable
+    volumes:
+      - C:\github\htl-stp-et\sj2024-25\5B-FI-Gr2\docker\ubuntu-server\testdata:/testdata
+    tty: true
